@@ -1,0 +1,9 @@
+npm install --save-dev hardhat or yarn add --dev hardhat
+npx hardhat init
+npx hardhat
+yarn add hardhat dotenv ethers@^5.7.2 @nomiclabs/hardhat-ethers@^2.2.3
+npm install dotenv
+npx hardhat compile
+npx hardhat run scripts/deploy.js --network sepolia
+npx hardhat node
+npx hardhat run scripts/deploy.js --network hardhat
