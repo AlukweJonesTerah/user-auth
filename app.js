@@ -20,8 +20,7 @@ app.use(express.static(path.join(__dirname, "public")));
 // routes
 const DashboardRoute = require('./routes/dashboardRoute')
 const AuthRoute = require('./routes/authRoute')
-const IPFSRoute = require('./routes/ipfsRoutes.js')
-
+const IPFSRoute = require('./routes/ipfsRoutes')
 app.use('/',DashboardRoute)
 app.use('/auth',AuthRoute)
 app.use('/ipfs',IPFSRoute)
